@@ -1,0 +1,10 @@
+# Ignorar a pasta de plugins e provedores baixados
+**/terraform/.terraform/
+
+# Ignorar os arquivos de estado que contêm dados sensíveis e senhas
+**/terraform/terraform.tfstate
+**/terraform/terraform.tfstate.backup
+
+# Ignorar variáveis locais 
+**/*.tfvars
+**/*.tfvars.json

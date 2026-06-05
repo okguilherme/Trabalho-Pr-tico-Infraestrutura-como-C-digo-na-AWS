@@ -1,6 +1,6 @@
 resource "aws_security_group" "devops" {
   name        = "devops"
-  description = "Grupo de Segurança da Disciplina DevOps"
+  description = "Grupo de Seguranca da Disciplina DevOps"
   tags = {
     Name = "devops"
   }

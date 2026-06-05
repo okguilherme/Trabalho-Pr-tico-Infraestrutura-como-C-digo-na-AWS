@@ -6,7 +6,7 @@
 #   ansible-inventory -i aws_ec2.yaml --graph
 
 plugin: amazon.aws.aws_ec2
-aws_profile: default
+#aws_profile: default
 regions:
   - us-east-1
 keyed_groups:
