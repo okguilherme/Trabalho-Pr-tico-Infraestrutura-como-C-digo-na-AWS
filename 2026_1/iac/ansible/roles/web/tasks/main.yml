@@ -1,0 +1,16 @@
+---
+- name: Instalar nginx e cliente PostgreSQL
+  become: true
+  apt:
+    name:
+      - nginx
+      - postgresql-client
+    state: latest
+    update_cache: true
+
+- name: Iniciar o nginx
+  become: true
+  service:
+    name: nginx
+    state: started
+    enabled: true
